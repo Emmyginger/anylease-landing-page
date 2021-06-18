@@ -5,6 +5,7 @@
   --red:#ED176F;
   --coral:#F7817F;
   --gradient:linear-gradient(90deg, var(--red), var(--coral));
+  --gradient2:linear-gradient(to left, #3F5EFB 0%, #fC466B 100%);
 }
 
 *{
@@ -103,9 +104,7 @@ header .navbar a:hover{
 }
 
 .home{
-  background-image: url(/web/images/home-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
+ 
   min-height: 100vh;
   text-align: center;
 }
@@ -179,7 +178,7 @@ header .navbar a:hover{
 }
 
 .features .box-container .box:hover{
-  background:var(--gradient);
+  background:var(--gradient2);
 }
 
 .features .box-container .box:hover > *{
